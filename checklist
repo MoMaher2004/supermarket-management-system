@@ -1,0 +1,58 @@
+update password                 |T
+update role (A, O)              |T
+update phone (A, O)             |T
+delete user (A, O)              |T
+login                           |T
+add user (A, O)                 |T
+get user list (A, O)            |T
+
+
+make a bill (A, O, C)           |T
+show a bill (A, O, C)           |T
+show bills list (A, O, C)       |T
+refund bill (A, O, C)           |T
+bill-product relation (A, O, C) |T
+
+add product (A, O, S)           |T
+edit product (A, O, S)          |T
+show product (A, O, S)          |T
+show products list (A, O, S)    |T
+product-zone relation (A, O, S) |T
+
+add shipment (A, O, S)          |T
+shipment recieved (A, O, S)     |T
+edit shipment (A, O, S)         |T
+cancel shipment (A, O, S)       |T
+show shipment by id (A, O, S)   |T
+show shipment by 
+    product (A, O, S)           |T
+show shipments list by 
+    supplier (A, O, S)          |T
+make recieved shipment 
+    trigger product (A, O, S)   |T
+
+add supllier (A, O S)           |T
+edit supllier (A, O S)          |T
+delete supllier (A, O S)        |T
+show supllier (A, O S)          |T
+show suplliers list (A, O S)    |T
+
+build the db                    |T
+put some data in db             |T
+check all module.exports        |T
+add try/catch to all functions  |T
+check input types               |T
+do all tests                    |T
+merge retrievals with their 
+    relations                   |
+add check password update 
+    verification                |T
+get user profile (A,O)          |
+add search and filter to 
+    products                    |
+secure the app                  |
+optimize billModel.addBill()    |
+optimize billModel.refundBill() |
+change manual js time to NOW()  |
+replace all errors with messages|
+
